@@ -3,9 +3,6 @@ touch Dockerfile
 aquire image from docker hub
 https://hub.docker.com/
 FROM node:alpine // an image containing minimal linux and node
-COPY . /app // copies our code into an app folder
-
-0. sample nodejs file:
 touch app.js
 echo "console.log('hello')" > app.js
 echo "WORKDIR /app" >> Dockerfile
